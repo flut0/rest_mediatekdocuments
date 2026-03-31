@@ -1,0 +1,29 @@
+# REST MediaTekDocuments - Atelier Professionnel 2
+
+> Dépôt original : [CNED-SLAM/rest_mediatekdocuments](https://github.com/CNED-SLAM/rest_mediatekdocuments)
+
+## Fonctionnalités ajoutées
+- Routes pour les commandes de livres, DVD et revues
+- Route pour l'authentification des utilisateurs
+- Sécurité htaccess (erreur 400 si route vide)
+
+## Technologies utilisées
+- PHP 8.2
+- MySQL / MariaDB
+- Composer
+- phpDocumentor
+
+## Mode opératoire (installation en local)
+1. Cloner le dépôt dans `C:\xampp\htdocs\rest_mediatekdocuments`
+2. Lancer `composer install`
+3. Configurer le fichier `src/.env`
+4. Importer `mediatek86.sql` dans phpMyAdmin
+
+## API en ligne
+`https://ilyesahouzi.alwaysdata.net/rest_mediatekdocuments/`
+
+## Documentation technique
+La documentation technique se trouve dans le dossier `docs/`
+
+## Script BDD
+Le script SQL se trouve à la racine : `mediatek86.sql`
